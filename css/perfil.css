@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+:root{
+    --main-font: "Fredoka One";
+    --secondary-font: "Fredoka";
+    --third-font: "Poppins";
+    --fourth-font: "Titan One"; 
+}
+
+body{
+    background: url(/src/img/navegador.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.headsoons{
+    display: flex; 
+    background-color: rgba(202, 13, 39, 0.966);
+    width: 100%;
+    height: 250px;
+    
+}
+.backbox{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+.back{
+    display: flex;
+    margin-top: 10px;
+    width: 60px;
+    margin-left: 8px;
+}
+.user{
+    position: absolute;
+    margin-top: 10px;
+    width: 10%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+}
+.usuario{
+    position: relative;
+    top:38%;
+    left: 40%;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 55px;
+}
+.correo{
+    position: relative;
+    top:78% ;
+    left: 20%;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 20px;
+}
+.parrafoconfig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: var(--main-font);
+    margin-top: 2%;
+}
+.cajaopciones{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    
+}
+.parrafos1{
+    position: absolute;
+    font-size: 30px;
+    font-family: var(--main-font);
+    right: 31.3%;
+    bottom: 35%;
+
+}
+.parrafos2{
+    position: absolute;
+    font-size: 30px;
+    font-family: var(--main-font);
+    right: 42.5%;
+    bottom: 25.5%;
+
+}
+.parrafos3{
+    position: absolute;
+    font-size: 30px;
+    font-family: var(--main-font);
+    right: 40.2%;
+    bottom: 16%;
+
+}
+
+.icono{
+    position: relative;
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+
+.fmbox{
+    position: absolute;
+    font-family: var(--main-font);
+    font-size: 20px;
+    width: 19%;
+    height: 50px;
+    left: 78%;
+    top: 91%;
+    
+}
+.fm1{
+    display: flex;
+    align-items: center;
+    font-family: var(--main-font);
+    color: #d1052a;
+}
+.fm2{
+    position: relative;
+    color: white;
+    left: 15px;
+}
+.iconos a{
+    text-decoration: none;
+    color: black;
+}
+
+

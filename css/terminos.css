@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+    --main-font: "Fredoka One";
+    --secondary-font: "Fredoka";
+    --third-font: "Poppins";
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(/src/img/navegador.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.izquierda{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.loguito{
+    position: absolute;
+    width: 5%;
+    top: 0.5%;
+    left: 1%;
+}
+.textLogo{
+    font-family: var(--main-font);
+    position: absolute;
+    left: 7%;
+}
+.textRed{
+    color: #d1052a;
+}
+.logo{
+    position: absolute;
+    width: 35%;
+    top:8%;
+    left: 8%;
+}
+.enlace {
+    color: white;
+    border-bottom: 4px solid white;
+    font-family: var(--third-font);
+    text-decoration: none;
+    position: absolute;
+   bottom: 8%;
+    left: 5%;
+}
+.derecha{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+h1{
+    position: absolute;
+    width: 50%;
+    top:6%;
+    right: 3%;
+    color: #d1052a;
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 3em;
+}
+.parrafo{
+    position: absolute;
+    width: 50%;
+    top:18%;
+    right: 1%;
+    font-size: 2em;
+    color: black;
+    text-align: left;
+    font-family: var(--secondary-font);
+}

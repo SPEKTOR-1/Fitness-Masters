@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+    --main-font: "Fredoka One";
+    --secondary-font: "Fredoka";
+    --third-font: "Poppins";
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(/src/img/navegador.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.izquierda{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.parrafo{
+    position: absolute;
+    width: 40%;
+    top:25%;
+    left: 10%;
+    font-size: 2em;
+    color: black;
+    text-align: left;
+    font-family: var(--secondary-font);
+}
+.enlace {
+    color: white;
+    border-bottom: 4px solid white;
+    font-family: var(--third-font);
+    text-decoration: none;
+    position: absolute;
+   bottom: 8%;
+    left: 5%;
+}
+.derecha{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+h1{
+    margin-top: 12%;
+    color: #d1052a;
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 3em;
+}
+.textRed{
+    color: black;
+}
+.logo{
+    position: absolute;
+    width: 35%;
+    top:19%;
+    right: 8%;
+}

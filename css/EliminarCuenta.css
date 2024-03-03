@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans&display=swap');
+:root{
+    --tipo-letra: "Fredoka One";
+    --tipo-letra-boton: "OpenSans";
+}
+body{
+    background: url(/src/img/navegador.png) no-repeat center center fixed;
+    background-size: cover;
+
+    
+
+}
+.cabecera{
+    font-family: var(--tipo-letra);
+    color: #d1052a;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    margin: -25px;
+}
+.flecha{
+    position: absolute;
+    width: 3%;
+    top: 2%;
+    left: 1%;
+}
+.seccion1{
+    font-family: var(--tipo-letra);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.seccion1 .text{
+    position: relative;
+    left: 33.5%;
+    /* text-align: center; */
+}
+.logo{
+    width: 19%;
+    right: 41.5%;
+    position: absolute;
+    top: 16%;
+}
+.seccion3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frase1{
+    position: absolute;
+    right: 41%;
+    top: 54.5%;
+    font-size: 120%;
+}
+.seccion4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 23%; 
+    right: 38.8%;
+    top: 70%;
+}
+.boton{
+    width: 100%;
+    font-size: larger;
+    background-color: #d1052a;
+    color: white; 
+    border-radius: 5px;
+    
+}
+.seccion4 .boton a{
+    text-decoration: none;
+    color: white;
+}

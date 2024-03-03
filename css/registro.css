@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+
+:root{
+    --main-font: "Fredoka One";
+    --secondary-font: "Fredoka";
+    --third-font: "Poppins";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/src/img/navegador.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* .about p{
+    color: black;
+    font-size: 1.2em;
+    border-bottom: 2px solid #d1052a;
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    position: absolute;
+    top: 6%;
+    right: 8%;
+} */
+
+h1{
+    color: #d1052a;
+    margin: 30px 0 0 0;
+    /* position: absolute; */
+    text-align: center;
+    font-family: "Fredoka";
+    font-size: 4em;
+}
+
+.text-header{
+    color: black;
+    font-size: 1.7em;
+    /* position: absolute;
+    top: 17%;
+    left: 30%; */
+    text-align: center;
+    font-family: "Fredoka";
+}
+
+form{
+    /* border: 3px solid gray; */
+    width: 410px;
+    margin: auto;
+}
+
+.txt-form{
+    font-family: "Fredoka";
+    font-size: 1.3em;
+}
+
+.input-form{
+    width: 30em;
+    height: 3em;
+}
+
+.btn-form{
+    color: white;
+    background-color: #d1052a;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 21em;
+    height: 2.4em;
+}
+.btn-form > a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+    --main-font: "Fredoka One";
+    --secondary-font: "Fredoka";
+    --third-font: "Poppins";
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(/src/img/navegador.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.seccion{
+    margin-top: 100px;
+   display: grid; 
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(4,1fr);
+   grid-template-areas: 
+    ". ."
+    "arc3 arc3"
+    "arc4 arc4"
+    "arc5 arc5"
+   ;
+}
+.cabeza{
+    background-color: #d1052a;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 90px;
+}
+h1{
+    position: absolute;
+    width: 40%;
+    top:2%;
+    left:31%;
+    text-align: center;
+    font-family: var(--main-font);
+    color: white;
+}
+.textLogo{
+    font-family: var(--main-font);
+    position: absolute;
+    width: 35%;
+    top:10%;
+    left: 6%;
+}
+.txtColor{
+    color: white;
+}
+.flecha{
+    position: absolute;
+    width: 3%;
+    top: 20%;
+    left: 1%;
+}
+.textUser{
+    color: white;
+    font-family: var(--main-font);
+    position: absolute;
+    top:25%;
+    left: 88%;
+}
+.user{
+    position: absolute;
+    width: 3%;
+    top: 2%;
+    right: 5%;
+}
+.parrafo{
+    background-color: white;
+    font-family: var(--secondary-font);
+    font-size: 2em;
+    width: max-content;
+}
+.pesas, .pesas2{
+    width: 20%;
+}
+.parrafo2{
+    background-color: white;
+    font-family: var(--secondary-font);
+    font-size: 2em;
+    width: max-content;
+}
+.arc1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.arc2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.arc3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-area: arc3;
+}
+.parrafo3{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-family: var(--secondary-font);
+    font-size: 2em;
+    width: 80%;
+    height: 85%;
+    align-items: center;
+    border-radius: 0 20px 20px 0; 
+}
+.imag, .imag1, .imag2{
+    width: 15%;
+    height: 85%;
+    border-radius: 20px 0 0 20px;
+}
+.arc4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-area: arc4;
+}
+.parrafo4{
+    display: flex;
+    background-color: white;
+    font-family: var(--secondary-font);
+    font-size: 2em;
+    width: 80%;
+    height: 85%;
+    align-items: center;
+    border-radius: 0 20px 20px 0; 
+}
+.arc5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-area: arc5;
+}
+.parrafo5{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-family: var(--secondary-font);
+    font-size: 2em;
+    width: 80%;
+    height: 85%;
+    align-items: center;
+    border-radius: 0 20px 20px 0; 
+}
+
